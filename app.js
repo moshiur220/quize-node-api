@@ -2,7 +2,7 @@ const express = require("express");
 const createError = require("http-errors");
 const morgan = require("morgan");
 const cors = require("cors");
-const sequelize = require("./config/db");
+const sequelize = require("./db");
 const quizRoutes = require("./routes/quizRoutes");
 require("dotenv").config();
 sequelize.sync();

@@ -1,6 +1,6 @@
 // models/Question.js
 const Sequelize = require("sequelize");
-const sequelize = require("../config/db");
+const sequelize = require("../db");
 const Quiz = require("./Quiz");
 
 const Question = sequelize.define("question", {
